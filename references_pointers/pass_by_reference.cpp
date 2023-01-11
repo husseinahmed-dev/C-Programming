@@ -1,6 +1,6 @@
 #include <iostream>
 
-int triple(int i) {
+int triple(int &i) {
 	i = i * 3;
 	return i;
 }
